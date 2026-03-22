@@ -46,6 +46,14 @@ public class LoginTest extends AppiumBaseTest {
 		
 		test.pass("Login successful");
 	}
+
+	@Test
+	public void CalcTest() throws MalformedURLException, InterruptedException {
+		 ExtentTest test = extent.createTest("Verify Login Test");
+		 test.info("Launching application");
+		
+		test.pass("Login successful");
+	}
 	
 	
 }
