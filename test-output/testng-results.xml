@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-22T22:09:22 IST" name="Suite" finished-at="2026-03-22T22:09:46 IST" duration-ms="23626">
+  <suite started-at="2026-03-23T16:47:00 IST" name="Suite" finished-at="2026-03-23T16:47:24 IST" duration-ms="23613">
     <groups>
     </groups>
-    <test started-at="2026-03-22T22:09:22 IST" name="Test" finished-at="2026-03-22T22:09:46 IST" duration-ms="23626">
+    <test started-at="2026-03-23T16:47:00 IST" name="Test" finished-at="2026-03-23T16:47:24 IST" duration-ms="23613">
       <class name="com.example.LoginTest">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.example.LoginTest@1c5920df]" started-at="2026-03-22T22:09:21 IST" name="setupReport" finished-at="2026-03-22T22:09:22 IST" duration-ms="730" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.example.LoginTest@17f9d882]" started-at="2026-03-23T16:47:00 IST" name="setupReport" finished-at="2026-03-23T16:47:00 IST" duration-ms="687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="LaunchAndroidApp()[pri:0, instance:com.example.LoginTest@1c5920df]" started-at="2026-03-22T22:09:22 IST" name="LaunchAndroidApp" finished-at="2026-03-22T22:09:39 IST" duration-ms="16876" status="PASS">
+        <test-method is-config="true" signature="LaunchAndroidApp()[pri:0, instance:com.example.LoginTest@17f9d882]" started-at="2026-03-23T16:47:00 IST" name="LaunchAndroidApp" finished-at="2026-03-23T16:47:16 IST" duration-ms="15761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchAndroidApp -->
-        <test-method signature="AddNum()[pri:0, instance:com.example.LoginTest@1c5920df]" started-at="2026-03-22T22:09:39 IST" name="AddNum" finished-at="2026-03-22T22:09:44 IST" duration-ms="5454" status="PASS">
+        <test-method signature="AddNum()[pri:1, instance:com.example.LoginTest@17f9d882]" started-at="2026-03-23T16:47:16 IST" name="AddNum" finished-at="2026-03-23T16:47:22 IST" duration-ms="5962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddNum -->
-        <test-method signature="Calc()[pri:0, instance:com.example.LoginTest@1c5920df]" started-at="2026-03-22T22:09:44 IST" name="Calc" finished-at="2026-03-22T22:09:44 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Calc -->
-        <test-method signature="Calcwer()[pri:0, instance:com.example.LoginTest@1c5920df]" started-at="2026-03-22T22:09:44 IST" name="Calcwer" finished-at="2026-03-22T22:09:44 IST" duration-ms="3" status="PASS">
+        <test-method signature="Calcwer()[pri:2, instance:com.example.LoginTest@17f9d882]" started-at="2026-03-23T16:47:22 IST" name="Calcwer" finished-at="2026-03-23T16:47:23 IST" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Calcwer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.LoginTest@1c5920df]" started-at="2026-03-22T22:09:44 IST" name="tearDown" finished-at="2026-03-22T22:09:46 IST" duration-ms="1204" status="PASS">
+        <test-method signature="Calc()[pri:3, instance:com.example.LoginTest@17f9d882]" started-at="2026-03-23T16:47:23 IST" name="Calc" finished-at="2026-03-23T16:47:23 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calc -->
+        <test-method signature="CalcTest()[pri:4, instance:com.example.LoginTest@17f9d882]" started-at="2026-03-23T16:47:23 IST" name="CalcTest" finished-at="2026-03-23T16:47:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalcTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.LoginTest@17f9d882]" started-at="2026-03-23T16:47:23 IST" name="tearDown" finished-at="2026-03-23T16:47:24 IST" duration-ms="1175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.example.LoginTest@1c5920df]" started-at="2026-03-22T22:09:46 IST" name="tearDownReport" finished-at="2026-03-22T22:09:47 IST" duration-ms="822" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.example.LoginTest@17f9d882]" started-at="2026-03-23T16:47:24 IST" name="tearDownReport" finished-at="2026-03-23T16:47:25 IST" duration-ms="877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->

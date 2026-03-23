@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -110,6 +110,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.example.LoginTest" class="method navigator-link" hash-for-method="Calc">Calc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.example.LoginTest" class="method navigator-link" hash-for-method="CalcTest">CalcTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -147,6 +152,13 @@
                   <a name="Calc">
                   </a> <!-- Calc -->
                   <span class="method-name">Calc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CalcTest">
+                  </a> <!-- CalcTest -->
+                  <span class="method-name">CalcTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -210,24 +222,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'AddNum')
 data.setCell(0, 2, 'com.example.LoginTest')
-data.setCell(0, 3, 5454);
+data.setCell(0, 3, 5962);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Calc')
+data.setCell(1, 1, 'Calcwer')
 data.setCell(1, 2, 'com.example.LoginTest')
-data.setCell(1, 3, 4);
+data.setCell(1, 3, 423);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Calcwer')
+data.setCell(2, 1, 'Calc')
 data.setCell(2, 2, 'com.example.LoginTest')
-data.setCell(2, 3, 3);
+data.setCell(2, 3, 162);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CalcTest')
+data.setCell(3, 2, 'com.example.LoginTest')
+data.setCell(3, 3, 2);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -260,27 +276,31 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">LaunchAndroidApp</span>
-                <span class="method-start">735 ms</span>
+                <span class="method-start">693 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">AddNum</span>
-                <span class="method-start">17674 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Calc</span>
-                <span class="method-start">23137 ms</span>
+                <span class="method-start">16525 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Calcwer</span>
-                <span class="method-start">23145 ms</span>
+                <span class="method-start">22532 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Calc</span>
+                <span class="method-start">22958 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CalcTest</span>
+                <span class="method-start">23122 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23154 ms</span>
+                <span class="method-start">23127 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDownReport</span>
-                <span class="method-start">24502 ms</span>
+                <span class="method-start">24375 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -8,10 +8,11 @@ import com.aventstack.extentreports.ExtentTest;
 
 import io.appium.java_client.android.AndroidDriver;
 import pages.LoginPage;
+import util.GestureUtils;
 
 public class LoginTest extends AppiumBaseTest {
 
-	@Test
+	@Test(priority = 1)
 	public void AddNum() throws MalformedURLException, InterruptedException {
 		 ExtentTest test = extent.createTest("Verify Login Test");
 		 test.info("Launching application");
@@ -31,23 +32,26 @@ public class LoginTest extends AppiumBaseTest {
 		}
 		test.pass("Login successful");
 	}
-	@Test
-	public void Calc() throws MalformedURLException, InterruptedException {
-		 ExtentTest test = extent.createTest("Verify Login Test");
-		 test.info("Launching application");
-		
-		test.pass("Login successful");
-	}
-	
-	@Test
+
+	@Test(priority = 2)
 	public void Calcwer() throws MalformedURLException, InterruptedException {
 		 ExtentTest test = extent.createTest("Verify Login Test");
 		 test.info("Launching application");
-		
+		 GestureUtils.scrollDown(driver);
+		 System.out.println("The scroll down is done");
 		test.pass("Login successful");
 	}
+	
+	@Test(priority = 3)
+	public void Calc() throws MalformedURLException, InterruptedException {
+		 ExtentTest test = extent.createTest("Verify Login Test");
+		 test.info("Launching application");
+		 GestureUtils.swipeUp(driver);
+		test.pass("Login successful");
+	}
+	
 
-	@Test
+	@Test(priority = 4)
 	public void CalcTest() throws MalformedURLException, InterruptedException {
 		 ExtentTest test = extent.createTest("Verify Login Test");
 		 test.info("Launching application");
